@@ -1,0 +1,470 @@
+﻿
+.bButton {
+    width: 50px;
+    background-color: rgb(5,70,109);
+    color: white;
+}
+
+.TSForm {
+    border-bottom: 2px solid lightgray;
+}
+
+.TSForm1 {
+    width: 90%;
+}
+
+.TSForm2 {
+    border-top: 2px solid lightgray;
+}
+
+.tButtons {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.tTable {
+    width: 99%;
+    text-align: center;
+}
+/*
+.dropdown:hover > .dropdown-menu {
+    display: block; 
+}*/
+
+
+.dropdown-menu {
+    border-top: 0px;
+    margin-top: 0rem;
+}
+
+.dropdown-item {
+    color: #07639C;
+    font-weight: bold;
+}
+
+.hrList {
+    font-weight: 500;
+}
+
+.dropdown-item:hover {
+    color: #05466D;
+}
+
+.dropdown-item:active {
+    background-color: #07639C;
+}
+
+#changeStatusIcon {
+    color: black;
+
+}
+
+
+
+
+
+#changeStatusBtn:hover {
+    background-color: transparent;
+    transition: none;
+}
+
+#changeStatusBody{
+    color:black;
+    display:block;
+    text-align:start;
+}
+
+
+
+#detailExport, #statusExport {
+    width: 100%
+}
+
+#departmentListDropdown {
+    position: absolute;
+    top: 32vh;
+}
+
+#statusListDropdown {
+    left: -20vw;
+}
+
+div label {
+    font-weight: 500;
+}
+
+#dropdownDeptButton, #dropdownStatusButton, .Clear {
+    color: white;
+    padding: 0.35rem;
+}
+
+.sheetBorder {
+    width: 99.5%;
+    border-style: outset;
+    border-color: lightgray;
+    border-radius: 1%;
+    background-color: white;
+}
+
+input {
+    text-align: center;
+}
+
+.info {
+    height: 65px;
+    font-size: 0.3in;
+    justify-content: center;
+}
+
+.bBadge {
+    height: 35px;
+    justify-content: center;
+}
+
+.fadingSpinnerOut {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(0,0,0, 0.5);
+}
+
+.fadingSpinnerIn {
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 25%;
+    bottom: 25%;
+    margin: auto;
+}
+
+.fadingPage {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.spinSize {
+    width: 3rem;
+    height: 3rem;
+}
+
+.spinFont {
+    color: white;
+}
+
+.pBackground {
+    background-color: rgb(5,70,109);
+    color: white;
+}
+
+.btn.pBackground:hover {
+    color: white
+}
+
+.Footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3.5rem;
+    background-color: rgb(5,70,109);
+    color: whitesmoke;
+    font-weight: 100;
+}
+
+.footerText {
+    display: inline-block;
+    vertical-align: middle;
+    letter-spacing: 10px;
+    margin: 0;
+}
+
+.footerLogo {
+    display: inline-block
+}
+
+.copyright {
+    color: whitesmoke;
+}
+
+.Content {
+    padding-bottom: 3.5rem; /* Footer height */
+}
+
+#root {
+    position: relative;
+    min-height: 100vh;
+}
+
+.close:hover {
+    background-color: #FF605C;
+}
+
+.Slogan {
+    font-weight: 100;
+    letter-spacing: 5px;
+}
+
+.greyBackground {
+    background-color: rgb(203,204,204);
+    color: black;
+}
+
+.redBackground {
+    background-color: rgb(192,33,38);
+    color: white;
+}
+
+.BGLogo {
+    background-image: url("../Logos/backgroungLogo.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.nav-border {
+    border-bottom: 4px solid white;
+    color: white;
+    font-weight: bold;
+    font-size: 1.25em;
+    transition: border-bottom 0.125s ease;
+}
+
+
+    .nav-border:hover {
+        color: white;
+    }
+
+.nav-text {
+    color: #6EA4BF;
+    font-size: 1.25em;
+    font-weight: 600;
+}
+
+    .nav-text:hover {
+        border-color: lightgray;
+        color: white;
+        transition: color 0.5s ease;
+    }
+
+
+.pointer {
+    cursor: pointer;
+}
+
+.Login-background {
+    position: fixed;
+    width: auto,100%;
+    height: auto,100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-image: url("../Logos/logo.png"), url("../Logos/MainBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: auto,100% 100%;
+    background-attachment: fixed;
+    background-position: 5% 6%, center;
+}
+
+
+
+.headerIcons svg {
+    font-size: 1.5rem;
+}
+
+#exportIcon {
+    font-size: 2rem;
+}
+
+
+.none {
+    display: none;
+}
+
+
+
+.allHeaders {
+    height: auto;
+    width: auto;
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.homeDiv {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-image: url("../Logos/PMS1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.mainPage-background {
+    position: fixed;
+    width: auto,100%;
+    height: auto,100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-image: url("../Logos/backgroungLogo.png");
+    background-repeat: no-repeat;
+    background-size: 100% 80%;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .Login-background {
+        background-image: url("../Logos/MainBackground.jpg");
+        background-size: 100% 100%;
+        background-position: center;
+    }
+
+    #PMStitle {
+        display: none;
+    }
+}
+
+.secondaryTabs {
+    transition: background 0.75s ease;
+    transition: border 0.75s ease;
+}
+
+.active {
+    transition: background 0.75s ease;
+}
+
+
+
+#PMStitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#firstHeader {
+    border-bottom: 0.25px solid #065788;
+}
+
+.selected {
+    color: white;
+    font-weight: bold;
+    font-size: 1.25em;
+    transition: border-bottom 0.125s ease;
+}
+
+    .selected:hover {
+        color: white;
+    }
+
+#dropdownStatusButton {
+    list-style: none;
+}
+
+    #dropdownStatusButton a {
+        color: black;
+    }
+
+.selectedRow #dropdownStatusButton a {
+    color: white;
+}
+
+
+#personIcon:hover, #dropdownMenu2:hover, #SignOutIcon:hover, #signOutLink:hover, #exportIcon:hover {
+    background-color: #04314E;
+    transition: background 0.75s ease;
+}
+
+.dropleft .dropdown-toggle:hover {
+    color: white
+}
+
+.multi-button {
+    filter: drop-shadow(3px 10px 15px rgba(0, 0, 0, 0.45));
+}
+
+    .multi-button button {
+        height: 60px;
+        width: 120px;
+        background: rgb(5,70,109);
+        font-weight: bold;
+        color: white;
+        font-size: 1.2rem;
+        border: none;
+        margin: -2px;
+        padding: 0;
+        stroke: black;
+        outline: none;
+    }
+
+    .multi-button :nth-child(1) {
+        border-radius: 7px 0 0 7px;
+    }
+
+    .multi-button :nth-child(3) {
+        border-radius: 0 7px 7px 0;
+    }
+
+div h3 {
+    color: rgb(5,70,109);
+}
+
+button:hover {
+    cursor: pointer;
+    /*filter: drop-shadow(3px 5px 5px rgba(0, 0, 0, 0.45));*/
+    background-color: #04314E;
+    transition: background 0.75s ease;
+}
+
+button:active {
+    filter: none;
+    transform: scale(.95);
+}
+
+.main-button {
+    /*filter: drop-shadow(3px 10px 15px rgba(0, 0, 0, 0.45));*/
+}
+
+    .main-button a {
+        height: 60px;
+        width: 300px;
+        background: rgb(5,70,109);
+        font-weight: bold;
+        color: white;
+        font-size: 1.2rem;
+        border: none;
+        margin: -2px;
+        padding: 0;
+        stroke: black;
+        outline: none;
+        border-radius: 20px 20px 20px 20px;
+    }
+
+        .main-button a:hover {
+            background-color: #04314E;
+            transition: background 0.75s ease;
+            color: white;
+        }
